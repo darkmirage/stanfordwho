@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /~jcx/cgi-bin/stanfordwho/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
