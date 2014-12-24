@@ -14,10 +14,10 @@ foreach ($sunetids as $sunetid) {
   $results[] = array(
     'sunetid' => $person->get_sunetid(),
     'email' => $person->get_email(),
-    'first_name' => $person->get_first_name(),
-    'last_name' => $person->get_last_name(),
     'full_name' => $person->get_full_name(),
+    'first_name' => $person->get_first_name(),
     'middle_name' => $person->get_middle_name(),
+    'last_name' => $person->get_last_name(),
     'home_phone' => $person->get_home_phone(),
     'mobile_phone' => $person->get_mobile_phone(),
     'work_phone' => $person->get_work_phone(),
