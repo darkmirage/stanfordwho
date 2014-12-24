@@ -174,7 +174,7 @@ input:focus {
 <script>
 $(document).ready(function() {
   $('button[name=search]').click(function(e) {
-    window.location.href = './' + $('input#sunetids').val().replace(' ', '');
+    window.location.href = './' + $('input#sunetids').val().replace(/ /g, '');
     e.preventDefault();
   });
 });
