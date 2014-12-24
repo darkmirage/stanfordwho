@@ -149,7 +149,7 @@ input:focus {
   </div>
 </div>
 
-  <label for="sunetids">SUNet IDs seperated by commas</label>
+  <label for="sunetids">SUNet IDs separated by commas</label>
 </form>
 
 </div>
