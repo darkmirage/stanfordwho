@@ -112,7 +112,7 @@ h1 {
   color: #ccc;
 }
 
-.btn-black:hover {
+.btn-black:hover, .btn-black:focus {
   background-color: rgb(140, 21, 21);
   color: #fff;
 }
@@ -127,6 +127,19 @@ input:focus {
   outline: 0 none !important;
 }
 
+@media (max-width: 600px) {
+  h1 span {
+    font-size: 1.3em;
+  }
+
+  h1 small {
+    font-size: 0.9em;
+  }
+
+  .box {
+    padding: 20px;
+  }
+}
 </style>
 
 </head>
